@@ -29,5 +29,6 @@ func groupAnagrams(strs []string) [][]string {
 		result = append(result, v)
 	}
 
+	fmt.Print(strMap)
 	return result
 }
